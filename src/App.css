@@ -24,9 +24,19 @@
   color: white;
 }
 
+.back1{
+  background-repeat: no-repeat;
+  background-image: url('../src/wall.jpg');
+  height: 50rem;
+  background-size: 100%;
+  align-items: center;
+}
+
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +46,4 @@
     transform: rotate(360deg);
   }
 }
+
