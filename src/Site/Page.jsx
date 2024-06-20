@@ -9,8 +9,7 @@ export const Page = () => {
       <div className='flex flex-col '>
         <Topnavig/>
          <div className='back1'>
-            <Home/>
-            <Profile/>
+            <Outlet/>
          </div>
       </div>
     </>
