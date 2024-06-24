@@ -4,7 +4,7 @@ import Image from '../Pict.jpg';
 export const Profile = () => {
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
-      <div className="max-w-sm bg-black/70 border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-auto">
+      <div className="max-w-sm bg-black border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mt-auto">
         <a href="#">
           <img src={Image} alt="Profile Picture" className="rounded-t-lg w-full" />
         </a>
