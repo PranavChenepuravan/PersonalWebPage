@@ -3,6 +3,7 @@ import Image from '../react2.png';
 import Javsc from '../Javascript.png';
 import html5 from '../html5.png';
 import github from '../github3.png'
+import mongo from '../mongo.png'
 
 export const Skills = () => {
   return (
@@ -27,6 +28,10 @@ export const Skills = () => {
           <div className='text-center'>
             <img src={github} alt="HTML5" className='max-w-full h-auto' />
             <p className='mt-2'>GitHub</p>
+          </div>
+          <div className='text-center'>
+            <img src={mongo} alt="HTML5" className='max-w-full h-auto' />
+            <p className='mt-2'>Mongo DB</p>
           </div>
         </div>
       </div>
