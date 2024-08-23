@@ -9,6 +9,7 @@ import Home from './Site/Home';
 import Profile from './Site/Profile';
 import Projects from './Site/Projects';
 import Skills from './Site/Skills';
+import Viewcertificates from './Site/Viewcertificates';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,7 @@ root.render(
          <Route path='profile' element={<Profile/>}/>
          <Route path='projects' element={<Projects/>}/>
          <Route path='skills' element={<Skills/>}/>
+         <Route path='viewcerti' element={<Viewcertificates/>}/>
        </Route>
      </Routes>
     </BrowserRouter>
