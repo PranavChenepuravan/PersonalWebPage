@@ -2,7 +2,7 @@ import React from "react";
 
 const certificates = [
   { name: "Resume", file: "PRANAV C_MERN DEVELOPER2-Latest.pdf" },
-  { name: "Profesional Certificate", file: "AWH22MCA-2030_TueJul23_Provisional Certificate_179661.pdf" },
+  { name: "Provisional Certificate", file: "AWH22MCA-2030_TueJul23_Provisional Certificate_179661.pdf" },
   { name: "Grade Card", file: "AWH22MCA-2030_TueJul23_Consolidated Grade Card_283236.pdf" },
   // Add more certificates as needed
 ];
